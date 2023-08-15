@@ -4,18 +4,15 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-    
         "start": "node server",
-       
         "seed": "node seeds/index",
-       
         "watch": "nodemon server"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "bcrypt": "^5.0.0",
+        "bcrypt": "^5.1.0",
         "connect-session-sequelize": "^7.0.4",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
